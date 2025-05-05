@@ -11,7 +11,7 @@ float Vin = 5.0;
 float Vout = 0;
 float R1 = 100000.0;      // Bekannter Widerstand: 100 kOhm
 float R2 = 0.0;
-float Schwellwert = 1500.0; // Schwellenwert in Ohm
+float Schwellwert = 150000.0; // Schwellenwert in Ohm
 
 bool triggered = false;
 
@@ -227,7 +227,7 @@ void setup() {
   strip.begin();
   strip.clear();
   strip.show();
-  strip.setBrightness(50);
+  strip.setBrightness(170);
 
   // Zwei aufeinanderfolgende langsame Impulse (Morse-Strich) im Setup 
   // mit geänderter Farbfolge: Weiß, Grün, Türkis, Blau
