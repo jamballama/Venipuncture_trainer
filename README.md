@@ -9,6 +9,9 @@
 
 ![Hero image](1st_render.png)
 
+![Hero Video](test_needle.mp4)
+
+
 ---
 
 ## 1 · What is it?
