@@ -32,6 +32,23 @@ resistance sensing. If the needle overshoots the vein, the system triggers a
 
 ## 2 · Quick Start
 
-```bash
+bash
 git clone https://github.com/jamballama/Venipuncture_trainer
 cd venipuncture-trainer
+
+
+Hardware
+Print every STL in hardware/STL/ (0.2 mm layer height, PLA).
+
+Cast the silicone pad (Shore-10) as described in hardware/BOM.md.
+
+Solder LED strip & buzzer per electronics/arduino/README.md.
+
+Arduino
+bash
+Kopieren
+# Install library
+Sketch → Include Library → Manage Libraries → search 'Adafruit NeoPixel' (vX.X.X)
+
+# Flash sketch
+File → Open → electronics/arduino/Error_Signal_below_threshold_resistance.ino
